@@ -1,0 +1,24 @@
+# Network Port Scanning Task
+
+ My Local Network
+- **IP Address:** 192.168.157.113
+- **Subnet Mask:** 255.255.255.0
+- **Network Range:** 192.168.157.0/24
+
+ Nmap Scan Results
+
+ Device: 192.168.1.1
+| Port  | Service | Description                        | Security Risk                        |
+|-------|---------|------------------------------------|--------------------------------------|
+| 21/tcp| FTP     | File Transfer Protocol             | Unencrypted, vulnerable to sniffing  |
+| 554/tcp| RTSP   | Real Time Streaming Protocol       | May expose video streams             |
+| 1723/tcp| PPTP  | VPN Protocol                       | Outdated, known vulnerabilities      |
+
+ Device: 192.168.1.24
+| Port  | Service | Description                        | Security Risk                        |
+|-------|---------|------------------------------------|--------------------------------------|
+| 21/tcp| FTP     | File Transfer Protocol             | Unencrypted, vulnerable to sniffing  |
+| 554/tcp| RTSP   | Real Time Streaming Protocol       | May expose video streams             |
+| 1723/tcp| PPTP  | VPN Protocol                       | Outdated, known vulnerabilities      |
+
+ 
